@@ -69,6 +69,9 @@ body{
   align-items: center;
   justify-content: center;
 }
+.heading:hover{
+  color: hsl(47, 88%, 63%);
+}
 ```
 
 ### Continued development
