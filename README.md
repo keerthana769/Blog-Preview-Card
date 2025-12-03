@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/keerthana769/Blog-Preview-Card)
+- Solution URL: [Add solution URL here](https://github.com/keerthana769/Blog-Preview-Card/)
 - Live Site URL: [Add live site URL here](https://keerthana769.github.io/Blog-Preview-Card/)
 
 ## My process
