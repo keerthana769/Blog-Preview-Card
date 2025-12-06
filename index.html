@@ -26,10 +26,10 @@
       flex-direction: column;
       background-color: hsl(0, 0%, 100%);
       border-radius: 20px;
-      border: 2px solid black;
-      box-shadow: 10px 10px hsl(0, 0%, 7%);
-      max-width: 300px;
-      padding: 1rem;
+      border: 1px solid black;
+      box-shadow: 8px 8px hsl(0, 0%, 7%);
+      max-width: 336px;
+      padding: 24px;
     }
     body{
       background-color: hsl(47, 88%, 63%);
@@ -40,44 +40,62 @@
       
     }
     .post{
-      margin-bottom: 1rem;
+      margin-bottom: 24px;
       border-radius: 10px;
       width: 100%;
+      height: 200px;
     }
     button{
       background-color: hsl(47, 88%, 63%);
-      padding: 5px;
-      border-radius: 5px;
-      font-weight: 800;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      padding-left: 12px;
+      padding-right: 12px;
+      border-radius: 4px;
+      font-weight: 800; /*extra bold*/
       border-color: hsl(47, 88%, 63%);
-      margin-bottom: 1rem;
+      margin-bottom: 12px;
+      font-size: clamp(10px, 6.4vw, 14px);
+
     }
     .heading{
-      font-weight: bolder;
-      font-size: clamp(20px, 6.4vw, 25px);
+      font-weight: 800; /*extra bold*/
+      font-size: clamp(20px, 6.4vw, 24px);
+      margin-bottom: 12px;
     }
     .heading:hover{
       color: hsl(47, 88%, 63%);
     }
-    .generalText{
-      font-size: 16px;
+    .generalText1{
+      color: hsl(0, 0%, 7%);
+      font-size: clamp(10px, 6.4vw, 14px);
+      margin-bottom: 12px;
+      font-weight: 500; /*medium*/
+    }
+    .generalText2{
       color: hsl(0, 0%, 42%);
       font-size: clamp(10px, 6.4vw, 16px);
+      margin-bottom: 12px;
+      font-weight: 500; /*medium*/
     }
     .profile{
       display: flex;
-      gap: 10px;
+      gap: 12px;
       align-items: center;
-      margin-top: 10px;
+      margin-top: 24px;
       margin-bottom: 10px;
     }
     p{
       margin: 0;
-      padding-bottom: 0.5rem;
-      font-size: clamp(10px, 6.4vw, 16px)
+      line-height: 150%;
+      letter-spacing: 0px;
+    }
+    .profile p{
+      font-size: clamp(10px, 6.4vw, 14px);
+      font-weight: 800; /*extra bold*/
     }
     .profilePic{
-      width: 40px;
+      width: 32px;
     }
     @media(max-width:375px){
       .main{
@@ -97,15 +115,15 @@
 
       <button>Learning</button>
 
-      <p class="generalText"><strong>Published 21 Dec 2023</strong></p>
+      <p class="generalText1">Published 21 Dec 2023</p>
 
-      <p class="heading"><strong>HTML & CSS foundations</strong></p>
+      <p class="heading">HTML & CSS foundations</p>
 
-      <p class="generalText">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <p class="generalText2">These languages are the backbone of every website, defining structure, content, and presentation.</p>
 
       <div class="container profile">
         <img src="./assets/images/image-avatar.webp" alt="profile image" class="profilePic"/>
-        <p><strong> Hooper</strong></p>
+        <p>Greg Hooper</p>
       </div>
       <hr />
 
