@@ -83,7 +83,7 @@ In the future, I plan to make the buttons and profile links functional so they r
 ### Useful resources
 
 - [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items) - This resource helped me learn how to align a container to the center of the page. I’m confident it will be useful for future projects as well.
-
+- [Example resource 2](https://www.w3schools.com/css/css_text_spacing.asp) - This resource helped me learn how to give spacing between lines, letters...
 ## Author
 
 - Frontend Mentor - [@keerthana769](https://www.frontendmentor.io/profile/keerthana769)
