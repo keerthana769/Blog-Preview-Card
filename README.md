@@ -50,6 +50,8 @@ To center content vertically and horizontally, you can set display: flex on the 
 
 Another key takeaway: when using border-radius on an element with padding, you might not get the expected result. In such cases, it’s better to use margin instead of padding.
 
+I never thought knowing how to use Figma would save so much time. I really recommend understanding the Figma files before starting any project.
+
 Note: Always look for semicolon at the end of code.
 
 clamp(min, preferred, max)
