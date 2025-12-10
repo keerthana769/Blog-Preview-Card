@@ -52,7 +52,7 @@ Another key takeaway: when using border-radius on an element with padding, you m
 
 I never thought knowing how to use Figma would save so much time. I really recommend understanding the Figma files before starting any project.
 
-Note: Always look for semicolon at the end of code.
+Note: Always look for semicolon at the end of code. Make sure body margin is set to 0.
 
 clamp(min, preferred, max)
 
